@@ -11,5 +11,6 @@ This site cannot exist without the continued contributions of fine people like y
     *  Add Category
     *  Add Industry Jargon
     *  Add at least one alternative (but feel free to list more)
+ *  Open a new issue if you find a typo
 
 Once we have had an opportunity to review the submission, and it is appropriate, we will add it to the site!
