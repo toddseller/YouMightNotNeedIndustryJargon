@@ -83,10 +83,11 @@
     }
   };
 
-  request.onerror = function() {
+  request.onerror = function () {
     document.getElementById("year").innerText = new Date().getFullYear()
   };
-  request.send()
+
+  request.send ()
 
   document.addEventListener('DOMContentLoaded', function() {
     search = document.querySelector('input[type="search"]');
