@@ -32,6 +32,13 @@ a
 {
     color: rgba(0,0,0,.5);
 }
+input
+{
+    -webkit-border-radius: 0;
+            border-radius: 0;
+
+    -webkit-appearance: none;
+}
 input[type='search'][required]
 {
     position: relative;
@@ -40,6 +47,8 @@ input[type='search'][required]
 
     -webkit-border-radius: 0;
             border-radius: 0;
+
+    -webkit-appearance: none;
 }
 input[type='search'][required]::-ms-clear
 {
@@ -526,6 +535,7 @@ footer a
 #copyright
 {
     font-size: .7em;
+
     position: relative;
     top: -.1em;
 }
@@ -538,6 +548,7 @@ footer a
     #copyright
     {
         font-size: .5em;
+
         position: relative;
         top: -.2em;
     }
