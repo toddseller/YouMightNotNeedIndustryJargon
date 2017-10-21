@@ -523,10 +523,22 @@ footer a
 {
     color: inherit;
 }
+#copyright
+{
+    font-size: .7em;
+    position: relative;
+    top: -.1em;
+}
 @media (max-width: 540px)
 {
     footer
     {
         font-size: 1em;
+    }
+    #copyright
+    {
+        font-size: .5em;
+        position: relative;
+        top: -.2em;
     }
 }
