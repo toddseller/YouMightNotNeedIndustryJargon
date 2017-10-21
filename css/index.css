@@ -120,10 +120,6 @@ header.page-header
         width: 100%;
         padding-top: 0;
     }
-    footer
-    {
-        font-size: 1em;
-    }
 }
 header.page-header .inner
 {
@@ -526,4 +522,11 @@ footer
 footer a
 {
     color: inherit;
+}
+@media (max-width: 540px)
+{
+    footer
+    {
+        font-size: 1em;
+    }
 }
